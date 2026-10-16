@@ -50,7 +50,7 @@ function embedHtmlDevFallback(): Plugin {
 const DEV_PROXY_TARGET =
   process.env.VITE_DEV_PROXY_TARGET ||
   process.env.FRONTEND_BACKEND_URL ||
-  'http://192.168.60.2/api/v1/'
+  'http://192.168.60.2/'
 
 function resolveVueOfficePptxEntry(): string {
   try {
